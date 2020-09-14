@@ -112,18 +112,18 @@ def main():
             }
     # Calling the function ith source an target
     pred, table = Dijkstra(graph, 's', 'g')
-    print("table: ", table)
-    table = sorted(table.items(), key=lambda x: x[1])
-    print(table)
+
+    greatest = ('', 0)
     entry = prompt()
     while entry != 'Q':
-        amounts = [amount[1] for amount in table]
-        subi = binarySearchSub(amounts, 0, len(amounts)-1, int(entry))
-        print(subi)
-        print("you should buy {0} for ${1}".format(table[subi][0],
-                                                   table[subi][1]))
+        for k in table.keys():
+            val = table[k]
+            if val > greatest[1] and val < int(entry):
+                greatest = (k, val)
+        print("You should buy {0} for ${1}".format(greatest[0], greatest[1]))
 
         entry = prompt()
+
     # print("All values are: ", table)
     # for key in pred.keys():
     #     print("The shortest path to {0} is through {1}.".format(key, pred[key]))

@@ -23,10 +23,9 @@ def binarySearchSub(arr, l, r, x):
     # If we reach here, then the element
     # was not present
     if x < arr[mid]:
-        return mid -1
+        return mid - 1
     else:
         return mid
-
 
 # # Driver Code
 # arr = [2, 3, 4, 10, 40]

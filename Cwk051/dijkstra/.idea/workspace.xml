@@ -22,9 +22,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
   </component>
-  <component name="RunManager" selected="Python.dikstra">
-    <configuration name="Graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.dijkstra_choose">
+    <configuration name="dijkstra_choose" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dijkstra" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -36,7 +42,28 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/dijkstra_choose.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dijkstra_pred" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dijkstra" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/dijkstra_pred.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -66,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dikstra_greatest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dijkstra" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/dikstra_greatest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,10 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dijkstra_choose" />
+        <item itemvalue="Python.dijkstra_pred" />
         <item itemvalue="Python.dikstra" />
+        <item itemvalue="Python.dikstra_greatest" />
         <item itemvalue="Python.try_dijktra,py" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -131,29 +159,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1554" height="245" key="GridCell.Tab.0.bottom" timestamp="1600111925748">
-      <screen x="0" y="23" width="1920" height="1003" />
+    <state width="1554" height="245" key="GridCell.Tab.0.bottom" timestamp="1600120572823">
+      <screen x="0" y="23" width="1920" height="1004" />
     </state>
     <state width="1554" height="245" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1600101031213" />
     <state width="1554" height="245" key="GridCell.Tab.0.bottom/0.23.1920.1003@0.23.1920.1003" timestamp="1600111925748" />
-    <state width="1554" height="245" key="GridCell.Tab.0.bottom/0.23.1920.1004@0.23.1920.1004" timestamp="1600110149449" />
-    <state width="1554" height="245" key="GridCell.Tab.0.center" timestamp="1600111925747">
-      <screen x="0" y="23" width="1920" height="1003" />
+    <state width="1554" height="245" key="GridCell.Tab.0.bottom/0.23.1920.1004@0.23.1920.1004" timestamp="1600120572823" />
+    <state width="1554" height="245" key="GridCell.Tab.0.bottom/0.23.1920.1005@0.23.1920.1005" timestamp="1600119877323" />
+    <state width="1554" height="245" key="GridCell.Tab.0.center" timestamp="1600120572822">
+      <screen x="0" y="23" width="1920" height="1004" />
     </state>
     <state width="1554" height="245" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1600101031213" />
     <state width="1554" height="245" key="GridCell.Tab.0.center/0.23.1920.1003@0.23.1920.1003" timestamp="1600111925747" />
-    <state width="1554" height="245" key="GridCell.Tab.0.center/0.23.1920.1004@0.23.1920.1004" timestamp="1600110149448" />
-    <state width="1554" height="245" key="GridCell.Tab.0.left" timestamp="1600111925747">
-      <screen x="0" y="23" width="1920" height="1003" />
+    <state width="1554" height="245" key="GridCell.Tab.0.center/0.23.1920.1004@0.23.1920.1004" timestamp="1600120572822" />
+    <state width="1554" height="245" key="GridCell.Tab.0.center/0.23.1920.1005@0.23.1920.1005" timestamp="1600119877322" />
+    <state width="1554" height="245" key="GridCell.Tab.0.left" timestamp="1600120572822">
+      <screen x="0" y="23" width="1920" height="1004" />
     </state>
     <state width="1554" height="245" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1600101031212" />
     <state width="1554" height="245" key="GridCell.Tab.0.left/0.23.1920.1003@0.23.1920.1003" timestamp="1600111925747" />
-    <state width="1554" height="245" key="GridCell.Tab.0.left/0.23.1920.1004@0.23.1920.1004" timestamp="1600110149448" />
-    <state width="1554" height="245" key="GridCell.Tab.0.right" timestamp="1600111925748">
-      <screen x="0" y="23" width="1920" height="1003" />
+    <state width="1554" height="245" key="GridCell.Tab.0.left/0.23.1920.1004@0.23.1920.1004" timestamp="1600120572822" />
+    <state width="1554" height="245" key="GridCell.Tab.0.left/0.23.1920.1005@0.23.1920.1005" timestamp="1600119877321" />
+    <state width="1554" height="245" key="GridCell.Tab.0.right" timestamp="1600120572822">
+      <screen x="0" y="23" width="1920" height="1004" />
     </state>
     <state width="1554" height="245" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1600101031213" />
     <state width="1554" height="245" key="GridCell.Tab.0.right/0.23.1920.1003@0.23.1920.1003" timestamp="1600111925748" />
-    <state width="1554" height="245" key="GridCell.Tab.0.right/0.23.1920.1004@0.23.1920.1004" timestamp="1600110149449" />
+    <state width="1554" height="245" key="GridCell.Tab.0.right/0.23.1920.1004@0.23.1920.1004" timestamp="1600120572822" />
+    <state width="1554" height="245" key="GridCell.Tab.0.right/0.23.1920.1005@0.23.1920.1005" timestamp="1600119877322" />
+    <state width="1554" height="303" key="GridCell.Tab.1.bottom" timestamp="1600119245624">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state width="1554" height="303" key="GridCell.Tab.1.bottom/0.23.1920.1005@0.23.1920.1005" timestamp="1600119245624" />
+    <state width="1554" height="303" key="GridCell.Tab.1.center" timestamp="1600119245623">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state width="1554" height="303" key="GridCell.Tab.1.center/0.23.1920.1005@0.23.1920.1005" timestamp="1600119245623" />
+    <state width="1554" height="303" key="GridCell.Tab.1.left" timestamp="1600119245623">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state width="1554" height="303" key="GridCell.Tab.1.left/0.23.1920.1005@0.23.1920.1005" timestamp="1600119245623" />
+    <state width="1554" height="303" key="GridCell.Tab.1.right" timestamp="1600119245623">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state width="1554" height="303" key="GridCell.Tab.1.right/0.23.1920.1005@0.23.1920.1005" timestamp="1600119245623" />
   </component>
 </project>
